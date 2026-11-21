@@ -1,0 +1,14 @@
+# requirements.txt: the Python packages for the film's sound, at the versions the sample was built with.
+# Author:  Muhammad Akhtar Shamim
+# Licence: MIT (see LICENSE)
+# Created: 2026-11-21
+#
+# Used by make_audio.py and score.py, with Python 3.12 on macOS (Apple silicon) and espeak-ng from Homebrew.
+# build.py and tighten.py need only Python; make_video.js and build.py's syntax check need Node.js 22 or later.
+numpy==2.5.5
+scipy==1.18.1
+soundfile==0.14.0
+torch==2.15.0
+kokoro==0.9.4
+misaki==0.9.4
+imageio-ffmpeg==0.8.1

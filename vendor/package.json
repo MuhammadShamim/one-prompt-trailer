@@ -1,0 +1,15 @@
+{
+  "name": "one-prompt-trailer-vendor",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Rebuilds vendor/three.min.js, the tree-shaken Three.js bundle inlined into the film",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build_three.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "three": "0.180.0"
+  },
+  "author": "Muhammad Akhtar Shamim"
+}

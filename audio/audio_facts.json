@@ -1,0 +1,408 @@
+{
+ "seconds": 129.0,
+ "mp3_bytes": 1807037,
+ "voice": "af_bella",
+ "language": "en",
+ "pace": 0.92,
+ "script_sha256": "99f31fb3d2196ef46cc74129f45e70d398619bedd7f71be1250fa05a908e673d",
+ "clips": [
+  {
+   "id": "open",
+   "start": 0.6,
+   "seconds": 3.97,
+   "speed": 1.0,
+   "fits": true,
+   "text": "You know this story. Weeks of late nights, poured into one project!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "company.1",
+   "start": 6.5,
+   "seconds": 0.72,
+   "speed": 1.0,
+   "fits": true,
+   "text": "An app!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "company.2",
+   "start": 8.3,
+   "seconds": 0.83,
+   "speed": 1.0,
+   "fits": true,
+   "text": "A report!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "company.3",
+   "start": 10.18,
+   "seconds": 0.94,
+   "speed": 1.0,
+   "fits": true,
+   "text": "A pitch deck!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "company.4",
+   "start": 12.5,
+   "seconds": 1.46,
+   "speed": 1.0,
+   "fits": true,
+   "text": "And then? Nothing.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p1.1",
+   "start": 15.5,
+   "seconds": 1.26,
+   "speed": 1.0,
+   "fits": true,
+   "text": "They take it to meetings.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p1.2",
+   "start": 17.13,
+   "seconds": 0.98,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Long pages!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p1.3",
+   "start": 18.46,
+   "seconds": 1.12,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Endless slides!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p1.4",
+   "start": 19.93,
+   "seconds": 0.92,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Diagrams!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p1.5",
+   "start": 22.29,
+   "seconds": 1.39,
+   "speed": 1.0,
+   "fits": true,
+   "text": "And everyone tunes out.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p2.1",
+   "start": 26.5,
+   "seconds": 1.78,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Great films take great crews!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p2.2",
+   "start": 28.63,
+   "seconds": 1.59,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Every job, a specialist.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p2.3",
+   "start": 35.23,
+   "seconds": 3.17,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Real craft. But small projects rarely get one.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p3.1",
+   "start": 40.5,
+   "seconds": 2.22,
+   "speed": 1.0,
+   "fits": true,
+   "text": "What if your project made its own trailer?",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p3.2",
+   "start": 43.07,
+   "seconds": 1.33,
+   "speed": 1.0,
+   "fits": true,
+   "text": "One prompt starts it!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p3.3",
+   "start": 44.75,
+   "seconds": 0.86,
+   "speed": 1.0,
+   "fits": true,
+   "text": "The script!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p3.4",
+   "start": 46.04,
+   "seconds": 0.88,
+   "speed": 1.0,
+   "fits": true,
+   "text": "The scenes!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p3.5",
+   "start": 47.32,
+   "seconds": 0.79,
+   "speed": 1.0,
+   "fits": true,
+   "text": "The voice!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p3.6",
+   "start": 48.61,
+   "seconds": 0.8,
+   "speed": 1.0,
+   "fits": true,
+   "text": "The music!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p3.7",
+   "start": 50.05,
+   "seconds": 1.4,
+   "speed": 1.0,
+   "fits": true,
+   "text": "And out comes your film!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p4.1",
+   "start": 53.5,
+   "seconds": 2.69,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Step one. Your project files go in.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p4.2",
+   "start": 56.54,
+   "seconds": 2.72,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Code! Documents! Slides! Spreadsheets!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p4.3",
+   "start": 59.71,
+   "seconds": 3.32,
+   "speed": 1.0,
+   "fits": true,
+   "text": "An AI assistant reads them, and drafts your script.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p5.1",
+   "start": 64.5,
+   "seconds": 2.87,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Step two. Your story, alive in three D!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p5.2",
+   "start": 67.72,
+   "seconds": 1.61,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Streets! People! Motion!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p5.3",
+   "start": 70.04,
+   "seconds": 0.81,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Any angle!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p5.4",
+   "start": 72.22,
+   "seconds": 1.16,
+   "speed": 1.0,
+   "fits": true,
+   "text": "All of it, just code!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p6.1",
+   "start": 75.5,
+   "seconds": 2.44,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Step three. An AI voice tells it.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p6.2",
+   "start": 78.29,
+   "seconds": 2.05,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Choose a voice! Choose a language!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p6.3",
+   "start": 80.8,
+   "seconds": 1.21,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Timed to every scene.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p6.4",
+   "start": 83.05,
+   "seconds": 2.25,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Change a word? It is spoken again.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p7.1",
+   "start": 87.5,
+   "seconds": 2.76,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Step four. A backing track, made in code.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p7.2",
+   "start": 90.61,
+   "seconds": 2.26,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Chords! Drums! Bass! Melody!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p7.3",
+   "start": 95.34,
+   "seconds": 5.25,
+   "speed": 1.0,
+   "fits": true,
+   "text": "No song copied. No artist imitated. Real songs need real musicians!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p8.1",
+   "start": 102.5,
+   "seconds": 2.22,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Step five. One single page.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p8.2",
+   "start": 106.25,
+   "seconds": 0.85,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Laptop!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p8.3",
+   "start": 107.45,
+   "seconds": 0.66,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Phone!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p8.4",
+   "start": 108.46,
+   "seconds": 0.89,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Big screen!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p8.5",
+   "start": 109.7,
+   "seconds": 2.14,
+   "speed": 1.0,
+   "fits": true,
+   "text": "Or export an MP4, and share it!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p9.1",
+   "start": 114.5,
+   "seconds": 0.7,
+   "speed": 1.0,
+   "fits": true,
+   "text": "And now?",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p9.2",
+   "start": 115.55,
+   "seconds": 0.83,
+   "speed": 1.0,
+   "fits": true,
+   "text": "They stop.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p9.3",
+   "start": 116.73,
+   "seconds": 0.82,
+   "speed": 1.0,
+   "fits": true,
+   "text": "They watch.",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "p9.4",
+   "start": 117.9,
+   "seconds": 3.08,
+   "speed": 1.0,
+   "fits": true,
+   "text": "The same people. The same project. Finally seen!",
+   "spoken_speed": 0.92
+  },
+  {
+   "id": "close",
+   "start": 122.6,
+   "seconds": 4.92,
+   "speed": 1.0,
+   "fits": true,
+   "text": "This trailer was made with the prompt and the tools you just saw. Yours could be next!",
+   "spoken_speed": 0.92
+  }
+ ],
+ "voice_over_music_db": 12.4,
+ "all_fit": true
+}

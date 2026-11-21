@@ -1,0 +1,30 @@
+/* tokens.css: colour and type tokens for the film (the scene colours --p1 to --p9, the fonts). Inlined by build.py.
+   Author:  Muhammad Akhtar Shamim
+   Licence: MIT (see LICENSE)
+   Created: 2026-11-21 */
+:root {
+  --bg: #f4f6f8; --surface: #ffffff; --surface-2: #e8edf2; --fg: #172029; --muted: #5b6673; --line: #d4dbe3;
+  --accent: #26506e; --accent-ink: #ffffff; --accent-soft: #dfe9f1; --gold: #9c6a12; --gold-soft: #f8efdb;
+  --violet: #6a4bb5; --violet-soft: #ece6f8; --ok: #2f7d4f; --ok-soft: #e0f1e7; --bad: #b23c2f; --bad-soft: #f8e3df;
+  --code-bg: #edf1f5; --chart-1: #26506e; --chart-grid: #d4dbe3; --shadow: 0 1px 2px rgba(23, 32, 41, 0.08);
+  --p1: #0e7c86; --p2: #2a6db5; --p3: #1e7f5c; --p4: #b4620f; --p5: #c2452b; --p6: #6a4bb5; --p7: #0e6b9e; --p8: #4f5d75; --p9: #9c6a12;
+  --display: "Fraunces", Georgia, "Times New Roman", serif; --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif; --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f141a; --surface: #161d25; --surface-2: #1f2832; --fg: #e6ebf1; --muted: #9aa6b4; --line: #2a3542;
+    --accent: #8fbbe0; --accent-ink: #0b1620; --accent-soft: #1b2d3d; --gold: #e0b25e; --gold-soft: #33290f;
+    --violet: #b39ded; --violet-soft: #241b3d; --ok: #6fcf97; --ok-soft: #163022; --bad: #ef8578; --bad-soft: #3a1d19;
+    --code-bg: #0b1117; --chart-1: #8fbbe0; --chart-grid: #2a3542; --shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+    --p1: #5fc5cf; --p2: #7fb4ee; --p3: #6fcf9f; --p4: #e5a35a; --p5: #ef8578; --p6: #b39ded; --p7: #6fb6e6; --p8: #a3b1c9; --p9: #e0b25e; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f141a; --surface: #161d25; --surface-2: #1f2832; --fg: #e6ebf1; --muted: #9aa6b4; --line: #2a3542;
+  --accent: #8fbbe0; --accent-ink: #0b1620; --accent-soft: #1b2d3d; --gold: #e0b25e; --gold-soft: #33290f;
+  --violet: #b39ded; --violet-soft: #241b3d; --ok: #6fcf97; --ok-soft: #163022; --bad: #ef8578; --bad-soft: #3a1d19;
+  --code-bg: #0b1117; --chart-1: #8fbbe0; --chart-grid: #2a3542; --shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+  --p1: #5fc5cf; --p2: #7fb4ee; --p3: #6fcf9f; --p4: #e5a35a; --p5: #ef8578; --p6: #b39ded; --p7: #6fb6e6; --p8: #a3b1c9; --p9: #e0b25e; color-scheme: dark;
+}
+.card[data-phase="1"] { --pc: var(--p1); } .card[data-phase="2"] { --pc: var(--p2); } .card[data-phase="3"] { --pc: var(--p3); } .card[data-phase="4"] { --pc: var(--p4); } .card[data-phase="5"] { --pc: var(--p5); }
+.card[data-phase="6"] { --pc: var(--p6); } .card[data-phase="7"] { --pc: var(--p7); } .card[data-phase="8"] { --pc: var(--p8); } .card[data-phase="9"] { --pc: var(--p9); }

@@ -1,0 +1,265 @@
+{
+ "total": 129,
+ "scenes": [
+  {
+   "id": "night",
+   "start": 0,
+   "dur": 6,
+   "text": "You know this story. Weeks of late nights, poured into one project!"
+  },
+  {
+   "id": "ship",
+   "start": 6,
+   "dur": 9,
+   "text": "An app! A report! A pitch deck! And then? Nothing.",
+   "cues": [
+    [
+     0.5,
+     "An app!"
+    ],
+    [
+     2.3,
+     "A report!"
+    ],
+    [
+     4.18,
+     "A pitch deck!"
+    ],
+    [
+     6.5,
+     "And then? Nothing."
+    ]
+   ]
+  },
+  {
+   "id": "ignored",
+   "start": 15,
+   "dur": 11,
+   "text": "They take it to meetings. Long pages! Endless slides! Diagrams! And everyone tunes out.",
+   "cues": [
+    [
+     0.5,
+     "They take it to meetings."
+    ],
+    [
+     2.13,
+     "Long pages!"
+    ],
+    [
+     3.46,
+     "Endless slides!"
+    ],
+    [
+     4.93,
+     "Diagrams!"
+    ],
+    [
+     7.29,
+     "And everyone tunes out."
+    ]
+   ]
+  },
+  {
+   "id": "wall",
+   "start": 26,
+   "dur": 14,
+   "text": "Great films take great crews! Every job, a specialist. Real craft. But small projects rarely get one.",
+   "cues": [
+    [
+     0.5,
+     "Great films take great crews!"
+    ],
+    [
+     2.63,
+     "Every job, a specialist."
+    ],
+    [
+     9.23,
+     "Real craft. But small projects rarely get one."
+    ]
+   ]
+  },
+  {
+   "id": "spark",
+   "start": 40,
+   "dur": 13,
+   "text": "What if your project made its own trailer? One prompt starts it! The script! The scenes! The voice! The music! And out comes your film!",
+   "cues": [
+    [
+     0.5,
+     "What if your project made its own trailer?"
+    ],
+    [
+     3.07,
+     "One prompt starts it!"
+    ],
+    [
+     4.75,
+     "The script!"
+    ],
+    [
+     6.04,
+     "The scenes!"
+    ],
+    [
+     7.32,
+     "The voice!"
+    ],
+    [
+     8.61,
+     "The music!"
+    ],
+    [
+     10.05,
+     "And out comes your film!"
+    ]
+   ]
+  },
+  {
+   "id": "script",
+   "start": 53,
+   "dur": 11,
+   "text": "Step one. Your project files go in. Code! Documents! Slides! Spreadsheets! An AI assistant reads them, and drafts your script.",
+   "cues": [
+    [
+     0.5,
+     "Step one. Your project files go in."
+    ],
+    [
+     3.54,
+     "Code! Documents! Slides! Spreadsheets!"
+    ],
+    [
+     6.71,
+     "An AI assistant reads them, and drafts your script."
+    ]
+   ]
+  },
+  {
+   "id": "live3d",
+   "start": 64,
+   "dur": 11,
+   "text": "Step two. Your story, alive in three D! Streets! People! Motion! Any angle! All of it, just code!",
+   "cues": [
+    [
+     0.5,
+     "Step two. Your story, alive in three D!"
+    ],
+    [
+     3.72,
+     "Streets! People! Motion!"
+    ],
+    [
+     6.04,
+     "Any angle!"
+    ],
+    [
+     8.22,
+     "All of it, just code!"
+    ]
+   ]
+  },
+  {
+   "id": "voice",
+   "start": 75,
+   "dur": 12,
+   "text": "Step three. An AI voice tells it. Choose a voice! Choose a language! Timed to every scene. Change a word? It is spoken again.",
+   "cues": [
+    [
+     0.5,
+     "Step three. An AI voice tells it."
+    ],
+    [
+     3.29,
+     "Choose a voice! Choose a language!"
+    ],
+    [
+     5.8,
+     "Timed to every scene."
+    ],
+    [
+     8.05,
+     "Change a word? It is spoken again."
+    ]
+   ]
+  },
+  {
+   "id": "score",
+   "start": 87,
+   "dur": 15,
+   "text": "Step four. A backing track, made in code. Chords! Drums! Bass! Melody! No song copied. No artist imitated. Real songs need real musicians!",
+   "cues": [
+    [
+     0.5,
+     "Step four. A backing track, made in code."
+    ],
+    [
+     3.61,
+     "Chords! Drums! Bass! Melody!"
+    ],
+    [
+     8.34,
+     "No song copied. No artist imitated. Real songs need real musicians!"
+    ]
+   ]
+  },
+  {
+   "id": "onefile",
+   "start": 102,
+   "dur": 12,
+   "text": "Step five. One single page. Laptop! Phone! Big screen! Or export an MP4, and share it!",
+   "cues": [
+    [
+     0.5,
+     "Step five. One single page."
+    ],
+    [
+     4.25,
+     "Laptop!"
+    ],
+    [
+     5.45,
+     "Phone!"
+    ],
+    [
+     6.46,
+     "Big screen!"
+    ],
+    [
+     7.7,
+     "Or export an MP4, and share it!"
+    ]
+   ]
+  },
+  {
+   "id": "premiere",
+   "start": 114,
+   "dur": 8,
+   "text": "And now? They stop. They watch. The same people. The same project. Finally seen!",
+   "cues": [
+    [
+     0.5,
+     "And now?"
+    ],
+    [
+     1.55,
+     "They stop."
+    ],
+    [
+     2.73,
+     "They watch."
+    ],
+    [
+     3.9,
+     "The same people. The same project. Finally seen!"
+    ]
+   ]
+  },
+  {
+   "id": "close",
+   "start": 122,
+   "dur": 7,
+   "text": "This trailer was made with the prompt and the tools you just saw. Yours could be next!"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<!-- template.html: the page's skeleton. build.py fills each double-bracketed placeholder with the film's styles, scripts, data and sound.
+     Author:  Muhammad Akhtar Shamim
+     Licence: MIT for this code (see LICENSE); the film it becomes is CC BY 4.0 (see LICENSE-MEDIA.md)
+     Created: 2026-11-21 -->
+<html lang="[[LANG]]">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="[[CSP]]">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="A [[F:seconds]]-second cinematic trailer about cinematic trailers: live 3D scenes, an AI voice and an original score in one page.">
+<title>Your project, as a movie trailer</title>
+<style>
+/* One-Prompt Trailer, built by build.py from src/template.html. Author: Muhammad Akhtar Shamim. Licence: MIT (see LICENSE).
+   Colour tokens, then the film's dark theme; a strict Content-Security-Policy with hashed inline code. */
+[[TOKENS_CSS]]
+[[FILM_CSS]]
+</style>
+</head>
+<body class="[[BODY_CLASS]]">
+[[ICONS]]
+<svg xmlns="http://www.w3.org/2000/svg" class="sprite" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
+    <symbol id="i-sound" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4zM16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/></symbol>
+    <symbol id="i-full" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></symbol>
+  </defs>
+</svg>
+<div class="film">
+  <canvas id="stage" aria-label="The trailer's animated scenes. The spoken words are shown as captions and listed in the transcript below." role="img"></canvas>
+  <p id="caption" class="caption" hidden></p>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+  <div id="fade" class="fade" aria-hidden="true"></div>
+
+  <header class="bar top">
+    <span class="brand"><span>[[BRAND]]</span><span class="chip">Trailer · [[F:duration]]</span></span>
+  </header>
+
+  <section id="lower" class="lower" aria-live="polite">
+    <span id="kicker" class="kicker"></span>
+    <h1 id="title"></h1>
+    <p id="line"></p>
+    <p id="stat" class="stat" hidden></p>
+    <code id="code" class="code" hidden></code>
+  </section>
+
+  <section id="end" class="end" hidden><div><button id="replay" type="button" hidden></button></div></section>
+
+  <div id="poster" class="poster">
+    <div>
+      <span class="eyebrow">[[BRAND]]</span>
+      <h2>Your project, as a movie trailer</h2>
+      <p id="poster-note">[[F:seconds]] seconds, with a voiceover and music. Space pauses, the arrows jump between scenes, m mutes.</p>
+      <button id="poster-play" class="btn primary" type="button"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg> Play the trailer</button>
+    </div>
+  </div>
+
+  <footer class="bar bottom">
+    <button id="play" class="icon-btn" type="button" aria-label="Play" aria-pressed="false"><svg class="ic" aria-hidden="true"><use id="play-icon" href="#i-play"/></svg></button>
+    <button id="restart" class="icon-btn" type="button" aria-label="Restart" title="Restart"><svg class="ic" aria-hidden="true"><use href="#i-refresh"/></svg></button>
+    <div class="scrub">
+      <div id="chapters" class="chapters" aria-hidden="true"></div>
+      <input id="seek" type="range" min="0" max="[[F:seconds]]" step="0.05" value="0" aria-label="Position in the trailer">
+    </div>
+    <span id="time" class="time">0:00 / [[F:duration]]</span>
+    <button id="cc" class="text-btn" type="button" aria-pressed="true" title="Show or hide captions (c)"><span>CC</span></button>
+    <button id="sound" class="text-btn" type="button" aria-pressed="true" title="Mute or unmute (m)"><svg class="ic" aria-hidden="true"><use href="#i-sound"/></svg><span>Sound on</span></button>
+    <button id="full" class="icon-btn" type="button" aria-label="Fullscreen" title="Fullscreen (f)"><svg class="ic" aria-hidden="true"><use href="#i-full"/></svg></button>
+  </footer>
+  <p class="notice">[[NOTICE]] [[AUDIO_NOTE]]</p>
+</div>
+
+<section class="fallback">
+  <h1>Your project, as a movie trailer</h1>
+  <p>This trailer is drawn with WebGL, which this browser has turned off. Here is what it shows, scene by scene.</p>
+  <ol>
+[[CHAPTERS]]
+  </ol>
+  <p class="k">[[NOTICE]]</p>
+</section>
+<section class="transcript" aria-label="Transcript of the voiceover">
+  <h2>Transcript</h2>
+  <ol>
+[[TRANSCRIPT]]
+  </ol>
+</section>
+<noscript><section class="fallback always"><h1>Your project, as a movie trailer</h1><p>The trailer needs JavaScript and WebGL.</p></section></noscript>
+
+[[AUDIO]]
+<script type="application/json" id="trailer-data">[[DATA]]</script>
+<script>[[VENDOR_JS]]</script>
+<script>[[FILM_JS]]</script>
+</body>
+</html>

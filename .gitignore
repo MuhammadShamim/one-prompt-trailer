@@ -1,0 +1,21 @@
+# .gitignore: files that stay out of the repository (work files, installed packages, local settings).
+# Author:  Muhammad Akhtar Shamim
+# Licence: MIT (see LICENSE)
+# Created: 2026-11-21
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv*/
+
+# Node (only needed to rebuild vendor/three.min.js)
+node_modules/
+vendor/three.body.js
+
+# Sound work files (the finished track.mp3 is kept)
+audio/*.wav
+
+# Local tool settings and operating-system files
+.claude/settings.local.json
+.DS_Store

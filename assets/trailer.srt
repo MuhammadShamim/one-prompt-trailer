@@ -1,0 +1,175 @@
+1
+00:00:00,600 --> 00:00:04,820
+You know this story. Weeks of late nights, poured into one project!
+
+2
+00:00:06,500 --> 00:00:07,470
+An app!
+
+3
+00:00:08,300 --> 00:00:09,380
+A report!
+
+4
+00:00:10,180 --> 00:00:11,370
+A pitch deck!
+
+5
+00:00:12,500 --> 00:00:14,210
+And then? Nothing.
+
+6
+00:00:15,500 --> 00:00:17,010
+They take it to meetings.
+
+7
+00:00:17,130 --> 00:00:18,360
+Long pages!
+
+8
+00:00:18,460 --> 00:00:19,830
+Endless slides!
+
+9
+00:00:19,930 --> 00:00:21,100
+Diagrams!
+
+10
+00:00:22,290 --> 00:00:23,930
+And everyone tunes out.
+
+11
+00:00:26,500 --> 00:00:28,530
+Great films take great crews!
+
+12
+00:00:28,630 --> 00:00:30,470
+Every job, a specialist.
+
+13
+00:00:35,230 --> 00:00:38,650
+Real craft. But small projects rarely get one.
+
+14
+00:00:40,500 --> 00:00:42,970
+What if your project made its own trailer?
+
+15
+00:00:43,070 --> 00:00:44,650
+One prompt starts it!
+
+16
+00:00:44,750 --> 00:00:45,860
+The script!
+
+17
+00:00:46,040 --> 00:00:47,170
+The scenes!
+
+18
+00:00:47,320 --> 00:00:48,360
+The voice!
+
+19
+00:00:48,610 --> 00:00:49,660
+The music!
+
+20
+00:00:50,050 --> 00:00:51,700
+And out comes your film!
+
+21
+00:00:53,500 --> 00:00:56,440
+Step one. Your project files go in.
+
+22
+00:00:56,540 --> 00:00:59,510
+Code! Documents! Slides! Spreadsheets!
+
+23
+00:00:59,710 --> 00:01:03,280
+An AI assistant reads them, and drafts your script.
+
+24
+00:01:04,500 --> 00:01:07,620
+Step two. Your story, alive in three D!
+
+25
+00:01:07,720 --> 00:01:09,580
+Streets! People! Motion!
+
+26
+00:01:10,040 --> 00:01:11,100
+Any angle!
+
+27
+00:01:12,220 --> 00:01:13,630
+All of it, just code!
+
+28
+00:01:15,500 --> 00:01:18,190
+Step three. An AI voice tells it.
+
+29
+00:01:18,290 --> 00:01:20,590
+Choose a voice! Choose a language!
+
+30
+00:01:20,800 --> 00:01:22,260
+Timed to every scene.
+
+31
+00:01:23,050 --> 00:01:25,550
+Change a word? It is spoken again.
+
+32
+00:01:27,500 --> 00:01:30,510
+Step four. A backing track, made in code.
+
+33
+00:01:30,610 --> 00:01:33,120
+Chords! Drums! Bass! Melody!
+
+34
+00:01:35,340 --> 00:01:40,840
+No song copied. No artist imitated. Real songs need real musicians!
+
+35
+00:01:42,500 --> 00:01:44,970
+Step five. One single page.
+
+36
+00:01:46,250 --> 00:01:47,350
+Laptop!
+
+37
+00:01:47,450 --> 00:01:48,360
+Phone!
+
+38
+00:01:48,460 --> 00:01:49,600
+Big screen!
+
+39
+00:01:49,700 --> 00:01:52,090
+Or export an MP4, and share it!
+
+40
+00:01:54,500 --> 00:01:55,450
+And now?
+
+41
+00:01:55,550 --> 00:01:56,630
+They stop.
+
+42
+00:01:56,730 --> 00:01:57,800
+They watch.
+
+43
+00:01:57,900 --> 00:02:01,230
+The same people. The same project. Finally seen!
+
+44
+00:02:02,600 --> 00:02:07,770
+This trailer was made with the prompt and the tools you just saw. Yours could be next!
